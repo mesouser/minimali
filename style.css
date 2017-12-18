@@ -1,0 +1,100 @@
+/*==============================
+STYLES FOR MINIMALISM
+===========================*/
+
+/* GLOBAL STYLES=================================================*/
+
+* {
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  color: black;
+  display: inline-block;
+  font-size: 1.2em;
+  margin-left: 5px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+}
+
+/* SIDEBAR GENERAL====================================================*/
+
+.sidebar {
+  height: 100%;
+  margin: 10px;
+  padding: 5%;
+  position: fixed;
+  text-align: left;
+  text-transform: uppercase;
+  width: 15%;
+}
+
+.sidebar ul {
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  text-decoration: none;
+}
+
+.side-nav {
+    overflow: hidden;
+}
+
+
+/* LOGO=================================================*/
+
+.logo-text {
+  font-size: 38px;
+}
+
+/* HEADER=================================================*/
+
+.header {
+  padding: 5% 20% 0 30%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+/* MAIN CONTENT====================================================*/
+
+.content-area, footer {
+  padding: 0 20% 5% 30%;
+}
+
+.content-area {
+  position: relative;
+  text-align: justify;
+}
+
+
+/* FOOTER===================================================*/
+
+footer {
+  text-align: right;
+}
+
+footer a {
+  font-family: 'Nothing You Could Do', cursive;
+}
